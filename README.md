@@ -1,8 +1,8 @@
-# Enterprise Simple UI library
+# Enterprise Simple UI library of React
 
-## 文档
+## Generator by create-react-app
 
-    cd {esui}
-    sudo gem install jsduck
-    jsduck —-config=jsduck/config.json
-    open doc/api/index.html
+## 文档 by esdoc
+
+## TODO
+
