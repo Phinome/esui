@@ -1,0 +1,39 @@
+{
+  "source": "./src",
+  "destination": "./esdoc",
+  "includes": ["\\.(js|es6|jsx)$"],
+  "excludes": ["\\.config\\.(js|es6)$"],
+  "access": ["public", "protected"],
+  "autoPrivate": true,
+  "unexportIdentifier": false,
+  "undocumentIdentifier": true,
+  "builtinExternal": true,
+  "index": "./README.md",
+  "package": "./package.json",
+  "coverage": true,
+  "includeSource": true,
+  "test": {
+    "type": "mocha",
+    "source": "./test/src",
+    "includes": ["Test\\.(js|es6|jsx)$"],
+    "excludes": ["\\.config\\.(js|es6|jsx)$"]
+  },
+  "title": "ESUI-React",
+  "styles": ["./style.css"],
+  "scripts": ["./script.js"],
+  "plugins": [
+    {"name": "plugin-name-or-file-path", "option": null}
+  ],
+  "manual": {
+    "asset": "./manual/asset",
+    "overview": ["./manual/overview.md"],
+    "installation": ["./manual/installation.md"],
+    "usage": ["./manual/usage.md"],
+    "tutorial": ["./manual/tutorial.md"],
+    "configuration": ["./manual/configuration.md"],
+    "example": ["./manual/example.md"],
+    "faq": ["./manual/faq.md"],
+    "changelog": ["./CHANGELOG.md"]
+  },
+  "lint": true
+}
